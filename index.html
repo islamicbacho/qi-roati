@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ระบบติดตามการเรียนกีรออาตีและอัลกุรอาน โรงเรียนบาเจาะ</title>
+  <style>
+    :root{
+      --green: #0b6b3a; /* deep green */
+      --light-green: #2fa36a;
+      --gold: #c79a2f; /* gold */
+      --bg: #f6fff8;
+      --card: #ffffff;
+      --text: #08321f;
+    }
+    html,body{height:100%;margin:0;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: linear-gradient(180deg, var(--bg), #ecfff0); color:var(--text)}
+    .container{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,250,250,0.9));border-radius:12px;box-shadow:0 10px 30px rgba(6,40,20,0.12);padding:2.25rem;max-width:800px;width:100%;text-align:center;border:3px solid rgba(199,154,47,0.12)}
+    h1{margin:0 0 0.5rem;color:var(--green);font-size:2rem}
+    p.lead{margin:0 0 1.25rem;color:#0b3f28;font-size:1.05rem}
+    .accent{color:var(--gold);font-weight:700}
+    .btn{
+      display:inline-block;padding:0.75rem 1.25rem;border-radius:8px;background:linear-gradient(90deg,var(--green),var(--light-green));color:white;text-decoration:none;font-weight:600;box-shadow:0 6px 18px rgba(11,107,58,0.18);border:2px solid rgba(0,0,0,0.04);
+    }
+    .btn.secondary{background:transparent;color:var(--green);border:2px solid rgba(199,154,47,0.15)}
+    footer{margin-top:1.5rem;color:#255a3b;font-size:0.9rem}
+    .logo{display:inline-block;background:linear-gradient(135deg,var(--gold),#ffd973);color:var(--green);font-weight:800;padding:0.35rem 0.6rem;border-radius:8px;margin-bottom:0.75rem}
+    @media (max-width:520px){h1{font-size:1.5rem}.card{padding:1.25rem}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card" role="main">
+      <div class="logo">บาเจาะ</div>
+      <h1>ยินดีต้อนรับสู่ระบบติดตามการเรียนกีรออาตีและอัลกุรอาน</h1>
+      <p class="lead">ระบบนี้สำหรับติดตามความก้าวหน้าและผลการเรียนกีรออาตีและอัลกุรอานของนักเรียนโรงเรียนบาเจาะ</p>
+
+      <a class="btn" href="system.html" title="เข้าสู่ระบบ">เข้าสู่ระบบ</a>
+      <a class="btn secondary" href="#" title="ข้อมูลเพิ่มเติม" style="margin-left:0.75rem">ข้อมูลเพิ่มเติม</a>
+
+      <footer>
+        <div class="accent">โรงเรียนบาเจาะ</div>
+        <div>ติดต่อผู้ดูแลระบบ: admin@bajoh.example</div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
